@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="LightArt.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4690">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.777"
+         offset="0"
+         id="stop4692" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop4694" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4690"
+       id="radialGradient4696"
+       cx="1080.4291"
+       cy="-210.21252"
+       fx="1080.4291"
+       fy="-210.21252"
+       r="960"
+       gradientTransform="matrix(2.419048,-0.02376575,0.01349093,1.3732021,-1530.3448,104.12896)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4728"
+       x="-0.1548"
+       width="1.3096"
+       y="-0.1548"
+       height="1.3096">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.6204011"
+         id="feGaussianBlur4730" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4856"
+       x="-0.102"
+       width="1.204"
+       y="-0.102"
+       height="1.204">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.3855356"
+         id="feGaussianBlur4858" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4690"
+       id="radialGradient4873"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.419048,-0.02376575,0.01349093,1.3732021,-1530.3448,104.12896)"
+       cx="1080.4291"
+       cy="-210.21252"
+       fx="1080.4291"
+       fy="-210.21252"
+       r="960" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4690"
+       id="radialGradient4883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.419048,-0.02376575,0.01349093,1.3732021,-1530.3448,104.12896)"
+       cx="1080.4291"
+       cy="-210.21252"
+       fx="1080.4291"
+       fy="-210.21252"
+       r="960" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="1016.9427"
+     inkscape:cy="2774.9007"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4698">
+      <rect
+         y="-750.21252"
+         x="120.42912"
+         height="1080"
+         width="1920"
+         id="rect4686"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:url(#radialGradient4696);fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4688"
+         width="1920"
+         height="1080"
+         x="120.42912"
+         y="-750.21252" />
+    </g>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4702"
+       width="441.94174"
+       height="307.14951"
+       x="740.25244"
+       y="433.64377" />
+    <circle
+       r="28.065125"
+       cy="542.74811"
+       cx="862.06262"
+       id="circle4706"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4728)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\ParticleRed.png"
+       inkscape:export-xdpi="156.71725"
+       inkscape:export-ydpi="156.71725" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4704"
+       cx="862.06262"
+       cy="542.74811"
+       r="23.75437"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\ParticleRed.png"
+       inkscape:export-xdpi="156.71725"
+       inkscape:export-ydpi="156.71725" />
+    <circle
+       style="opacity:1;fill:#00b1ff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4728)"
+       id="circle4732"
+       cx="937.19269"
+       cy="542.74811"
+       r="28.065125"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\ParticleBlue.png"
+       inkscape:export-xdpi="156.71725"
+       inkscape:export-ydpi="156.71725" />
+    <circle
+       r="23.572937"
+       cy="542.74811"
+       cx="937.19269"
+       id="circle4734"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\ParticleBlue.png"
+       inkscape:export-xdpi="156.71725"
+       inkscape:export-ydpi="156.71725" />
+    <circle
+       r="28.065125"
+       cy="542.74811"
+       cx="1018.6757"
+       id="circle4736"
+       style="opacity:1;fill:#fff700;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4856)"
+       transform="matrix(1.0161606,0,0,1.0161606,-16.462389,-8.7711236)" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4738"
+       cx="1018.6757"
+       cy="542.74811"
+       r="25.135437" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:0.10091743;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 908.85156 619.47461 A 16.895721 12.890625 0 0 0 896.52148 623.57422 A 12.890625 12.890625 0 0 0 892.96875 623.06445 A 12.890625 12.890625 0 0 0 880.07812 635.95508 A 12.890625 12.890625 0 0 0 891.91992 648.79297 A 12.890625 12.890625 0 0 0 903.74023 656.58008 A 12.890625 12.890625 0 0 0 916.625 643.80664 A 16.895721 12.890625 0 0 0 925.74609 632.36523 A 16.895721 12.890625 0 0 0 908.85156 619.47461 z "
+       id="path4860" />
+    <g
+       id="g4867"
+       transform="translate(0,-1096.0155)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\BackgroundBlue.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="opacity:1;fill:#0074ff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4869"
+         width="1920"
+         height="1080"
+         x="120.42912"
+         y="-750.21252" />
+      <rect
+         y="-750.21252"
+         x="120.42912"
+         height="1080"
+         width="1920"
+         id="rect4871"
+         style="opacity:1;fill:url(#radialGradient4873);fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(0,-2200.8698)"
+       id="g4877"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Light\Light\Assets\Sprites\BackgroundGreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="-750.21252"
+         x="120.42912"
+         height="1080"
+         width="1920"
+         id="rect4879"
+         style="opacity:1;fill:#00ff71;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:url(#radialGradient4883);fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4881"
+         width="1920"
+         height="1080"
+         x="120.42912"
+         y="-750.21252" />
+    </g>
+  </g>
+</svg>
