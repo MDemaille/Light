@@ -14,7 +14,7 @@ public class RespawnWhenOut : MonoBehaviour
     {
         if (collision.CompareTag(Tags.Player))
         {
-            collision.transform.position = _departureTransform.position;
+            collision.transform.position = _departureTransform.position + (Vector3)Vector2.up;
         }
     }	
 }

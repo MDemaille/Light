@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level
+  Size="0">
+  <LevelObject
+    ID="1"
+    Layer="0">
+    <Position
+      X="-6.099333"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="1"
+    Layer="0">
+    <Position
+      X="-0.1033336"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="1"
+    Layer="1">
+    <Position
+      X="-4.100667"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="1"
+    Layer="1">
+    <Position
+      X="1.895333"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="1"
+    Layer="2">
+    <Position
+      X="-2.102"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="1"
+    Layer="2">
+    <Position
+      X="3.894"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+  <LevelObject
+    ID="0"
+    Layer="3">
+    <Position
+      X="-8.098001"
+      Y="0.02187493" />
+    <Rotation
+      value="0" />
+    <Scale
+      X="1"
+      Y="1" />
+  </LevelObject>
+</Level>

@@ -8,6 +8,8 @@ TagManager:
   - ColorLayer
   - LevelManager
   - Departure
+  - Level
+  - LevelEditor
   layers:
   - Default
   - TransparentFX

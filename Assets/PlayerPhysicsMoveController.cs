@@ -38,11 +38,5 @@ public class PlayerPhysicsMoveController : MoveController
         }
     }
 
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag(Tags.Ground))
-        {
-            _isOnGround = false;
-        }
-    }
+    
 }

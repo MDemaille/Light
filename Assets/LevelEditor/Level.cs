@@ -19,9 +19,32 @@ public class Level : MonoBehaviour
 
     public List<GameObject> LevelObjects;
 
-    void LoadLevel(string filename)
+    public void Clear()
+    {
+        RedElements.Clear();
+        GreenElements.Clear();
+        BlueElements.Clear();
+        AllLayersElements.Clear();
+    }
+
+    void InstantiateLevel()
+    {
+        List<GameObject> elementList = new List<GameObject>();
+        elementList.AddRange(RedElements);
+        elementList.AddRange(GreenElements);
+        elementList.AddRange(BlueElements);
+        elementList.AddRange(AllLayersElements);
+
+        foreach (GameObject element in elementList)
+        {
+            Instantiate(element, element.transform.position, element.transform.localRotation);
+        }
+    }
+
+    public void LoadLevel(string filename)
     {
         XmlReader myXmlTextReader = new XmlTextReader(Application.dataPath + "/" + filename + ".xml");
+        Debug.Log(Application.dataPath + "/" + filename + ".xml");
 
         GameObject levelObject = new GameObject();
 
@@ -34,10 +57,20 @@ public class Level : MonoBehaviour
 
             if (myXmlTextReader.IsStartElement() && myXmlTextReader.Name == "LevelObject")
             {
-                levelObject = new GameObject();
-                levelObject = LevelObjects[int.Parse(myXmlTextReader.GetAttribute("ID"))];
-                levelObject.GetComponent<LevelObject>().Layer =
-                    (ColorEnum)int.Parse(myXmlTextReader.GetAttribute("Layer"));
+                int ID = int.Parse(myXmlTextReader.GetAttribute("ID"));
+                levelObject = Instantiate(LevelObjects[ID]);
+                ColorEnum layer = (ColorEnum) int.Parse(myXmlTextReader.GetAttribute("Layer"));
+                levelObject.GetComponent<LevelObject>().Layer =layer;
+                levelObject.GetComponent<LevelObject>().ObjectId = ID;
+
+                if (layer.Equals(ColorEnum.All))
+                    AllLayersElements.Add(levelObject);
+                if (layer.Equals(ColorEnum.Red))
+                    RedElements.Add(levelObject);
+                if (layer.Equals(ColorEnum.Green))
+                    GreenElements.Add(levelObject);
+                if (layer.Equals(ColorEnum.Blue))
+                    BlueElements.Add(levelObject);
             }
 
             if (myXmlTextReader.IsStartElement() && myXmlTextReader.Name == "Position")
@@ -60,6 +93,8 @@ public class Level : MonoBehaviour
                 levelObject.transform.localScale = new Vector2(x, y);
             }
         }
+
+        myXmlTextReader.Close();
     }
 
     public void SaveLevel(string filename)
@@ -70,7 +105,13 @@ public class Level : MonoBehaviour
         elementList.AddRange(BlueElements);
         elementList.AddRange(AllLayersElements);
 
-        XmlWriter xmlWriter = XmlWriter.Create(Application.dataPath + "/" + filename + ".xml");
+        XmlWriterSettings settings = new XmlWriterSettings();
+        settings.Indent = true;
+        settings.NewLineOnAttributes = true;
+        settings.CloseOutput = true;
+        XmlWriter xmlWriter = XmlWriter.Create(Application.dataPath + "/" + filename + ".xml", settings);
+        
+        Debug.Log(Application.dataPath + "/" + filename + ".xml");
 
         xmlWriter.WriteStartDocument();
         xmlWriter.WriteStartElement("Level");

@@ -5,22 +5,54 @@ using System.Collections.Generic;
 
 public class LevelManager : MonoBehaviour
 {
-
     public float Timer { get; private set; }
+    public string LevelName = "LevelTest";
 
-    private List<GameObject> _redElements = new List<GameObject>();
-    private List<GameObject> _greenElements = new List<GameObject>();
-    private List<GameObject> _blueElements = new List<GameObject>();
+    private Level _level;
+
+    private GameObject _allLayer;
+    private GameObject _redLayer;
+    private GameObject _greenLayer;
+    private GameObject _blueLayer;
 
     private int _currentLayerID = 0;
 
-    void Start()
+    public GameObject Player;
+
+    void Awake()
     {
-        GameObject[] layers = GameObject.FindGameObjectsWithTag(Tags.ColorLayer);
-        foreach (GameObject go in layers)
+        _allLayer = GameObject.Find("AllLayer");
+        _redLayer = GameObject.Find("RedLayer");
+        _greenLayer = GameObject.Find("GreenLayer");
+        _blueLayer = GameObject.Find("BlueLayer");
+
+        _level = GameObject.FindGameObjectWithTag("Level").GetComponent<Level>();
+        _level.LoadLevel(LevelName);
+
+        foreach (GameObject element in _level.AllLayersElements)
         {
-            go.transform.position = Vector2.zero;
+            element.transform.SetParent(_allLayer.transform);
         }
+
+        foreach (GameObject element in _level.RedElements)
+        {
+            element.transform.SetParent(_redLayer.transform);
+        }
+
+        foreach (GameObject element in _level.GreenElements)
+        {
+            element.transform.SetParent(_greenLayer.transform);
+        }
+
+        foreach (GameObject element in _level.BlueElements)
+        {
+            element.transform.SetParent(_blueLayer.transform);
+        }
+
+        _level.Clear();
+
+        Vector3 Spawn = GameObject.FindGameObjectWithTag("Departure").transform.position;
+        Instantiate(Player, Spawn + (Vector3)Vector2.up , Quaternion.identity);
 
         DisplayElementsOfOneColor((ColorEnum)_currentLayerID);
     }
@@ -45,22 +77,12 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void AddElement(GameObject element, ColorEnum color)
-    {
-        if (color.Equals(ColorEnum.Red))
-            _redElements.Add(element);
-        else if (color.Equals(ColorEnum.Green))
-            _greenElements.Add(element);
-        else if (color.Equals(ColorEnum.Blue))
-            _blueElements.Add(element);
-    }
-
     public void DisplayElementsOfOneColor(ColorEnum color)
     {
         Debug.Log(color.ToString());
-        SetActiveAllGameObjectsOfList(_redElements, color.Equals(ColorEnum.Red));
-        SetActiveAllGameObjectsOfList(_greenElements, color.Equals(ColorEnum.Green));
-        SetActiveAllGameObjectsOfList(_blueElements, color.Equals(ColorEnum.Blue));
+        _redLayer.SetActive(color.Equals(ColorEnum.Red));
+        _greenLayer.SetActive(color.Equals(ColorEnum.Green));
+        _blueLayer.SetActive(color.Equals(ColorEnum.Blue));
     }
 
     private void SetActiveAllGameObjectsOfList(List<GameObject> list, bool isActive)
